@@ -9,6 +9,9 @@ function setupDialogue(){
 
 	dialoguePicWidth = 64;
 	dialoguePicX = WIDTH - dialoguePicWidth - dialogueGutter;
+
+
+	//We shopuld load all the required assets, not just the current level
 	heroAPic = loadImage("images/heroA.png");	
 	heroBPic = loadImage("images/heroB.png");	
 
@@ -25,21 +28,18 @@ function setupDialogue(){
 			image: heroAPic,
 			textColor: "blue",
 			text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-			next: 1
 		},
 		{
 			character: "heroB",
 			image: heroBPic,
 			textColor: "red",
 			text: "Quod rem, libero quam ab nam et inventore nulla blanditiis repellat consequuntur! Libero tenetur a, voluptates sunt sapiente qui autem neque facilis.",
-			next: 2
 		},
 		{
 			character: "heroA",
 			image: heroAPic,
 			textColor: "blue",
 			text: "Goodbye",
-			next: null
 		}
 	];
 }
