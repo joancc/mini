@@ -1,4 +1,4 @@
-function myCode(){
+function mySetupCode(){
 	//Somebody messed up the code and the platforms are not properly aligned
 	
 	//Change the platforms size and position
@@ -32,4 +32,8 @@ function myCode(){
     platforms.add(platform6);
     platforms.add(platform7);
     platforms.add(platform8);
+}
+
+function myDrawCode(){
+	
 }

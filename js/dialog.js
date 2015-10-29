@@ -1,6 +1,6 @@
 //Insert these into p5's setup and draw respectively
 function setupDialogue(){
-	pixelFont = loadFont('c64-pixelized.otf');
+	pixelFont = loadFont('../fonts/c64-pixelized.otf');
 
 	dialogueOn = true;
 	dialogueIndex = 0;
